@@ -1,0 +1,275 @@
+/**********************************************************************************************************************************************
+/* 
+/* USER PROFILE
+/* 
+/**********************************************************************************************************************************************/
+
+/*********************
+* PROFILE HEADER
+**********************/
+
+.profile-h2 {
+   font-size: 40px;
+   font-weight: 300;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+   color: rgb(89, 89, 89);
+   text-align: left;
+}
+
+.profile-header {
+   height: 290px;
+}
+.profile-header>span {
+   width: 100%;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.71);
+   padding-bottom: 6px;
+   display: block;
+   font-size: 30px;
+   color: #57534a;
+}
+.avatar {
+   margin-left: auto;
+   margin-right: auto;
+   width: 230px;
+   height: 230px;
+   text-align: center;
+   border-radius: 100%;
+
+   background: white;
+   position: absolute;
+   right: 30px;
+   top: 30px;
+   overflow: hidden;
+}
+.avatar img {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.proj-link {
+   display: none;
+}
+.proj-description {
+   display: none;
+}
+.profile-description>span {
+   font-size: 40px;
+   font-weight: 300;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+   color: rgb(89, 89, 89);
+   padding-left: 30px;
+}
+.user-info-row {
+   padding-left: 60px;
+   height: 30px;
+}
+.user-info-row.first {
+   margin-top: 15px;
+}
+.user-info-row span {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-weight: 300;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+   font-size: 17px;
+   vertical-align: middle;
+   padding: 0;
+   color: rgb(76, 76, 76);
+}
+.user-info-row span:hover {
+   color: black;
+   font-weight: 300;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+}
+.user-info-row .img {
+   width: 20px;
+   height: 20px;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: inline-block;
+   position: absolute;
+   left: 59px;
+}
+.img.location {
+   background-image: url("../img/location-20.png");
+   /* margin-bottom: -5px; */
+}
+.img.language {
+   background-image: url("../img/language-20.png");
+}
+.img.role {
+   background-image: url("../img/fav-job-20.png");
+}
+.img.email {
+   background-image: url("../img/mail-20.png");
+}
+.img.tel {
+   background-image: url("../img/phone-20.png");
+   background-size: 18px;
+}
+.user-info-row b {
+   font-variant: small-caps;
+   color: rgb(63, 63, 63);
+}
+
+
+/*********************
+* SKILLS LIST
+**********************/
+
+.md-card.row {
+   margin-bottom: 15px;
+}
+.row h2 {
+   font-size: 25px;
+   display: inline-block;
+}
+.row .content {
+   width: auto;
+   text-align: left;
+   margin-bottom: 3px;
+}
+.skill-category {
+   color: #4A4A4A;
+   font-size: 25px;
+   text-align: left;
+   font-weight: 300;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+}
+.skill-description {
+   width: 50%;
+   display: inline-block;
+   text-align: left;
+   color: #4A4A4A;
+   font-size: 22px;
+   font-weight: 100;
+}
+.blue-slash {
+   margin-right: 5px;
+   font-family: "LF_RobotoLight", "Roboto", sans-serif;
+   font-size: 28px;
+   font-weight: 300;
+   color: #2A8CFA;
+}
+.skill-indicator {
+   color: white;
+   position: absolute;
+   margin-left: 10px;
+   /* margin-top: 2px; */
+}
+progress.skill-progress:not([value]) {
+   /* Styling here */
+   color: #2A8CFA;
+}
+progress.skill-progress[value] {
+   /* Reset the default appearance */
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   /*appearance: none;*/
+   width: 49%;
+   border: none;
+   height: 25px;
+}
+progress.skill-progress[value]::-webkit-progress-bar {
+   background-color: #aaa;
+   border-radius: 2px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress.skill-progress[value]::-webkit-progress-value {
+   background: #2A8CFA;
+   border-radius: 2px;
+}
+progress.skill-progress[value]::-moz-progress-bar {
+   background-color: #aaa;
+   border-radius: 2px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress.skill-progress[value]::-moz-progress-value {
+   background: #2A8CFA;
+   border-radius: 2px;
+}
+/*********************
+* PORTFOLIO
+**********************/
+
+.portfolio-card {
+   background: #2a8cfa !important;
+   border: 1px solid white !important;
+}
+
+.portfolio-card .picture-hidden {
+    transition: all .25s ease-in-out;;
+    width: 100%; position: absolute; height: 100%;
+} 
+.portfolio-card .picture-hidden img {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.portfolio-card:hover .picture-hidden {
+    opacity: 0.05;
+}
+
+.add {
+   background: url("../img/add-32.png");
+   top: 8px;
+   right: 30px;
+}
+
+.portfolio-card .actionbutton.close-button {
+   left: 50%;
+   display: none;
+   margin-left: -10px;
+}
+
+.portfolio-card:hover .close-button {
+   display: block;
+}
+
+.msg-object {
+   margin: 0px;
+   width: 420px;
+   border: 0;
+   background: rgb(209, 209, 209);
+   color: rgb(39, 39, 54);
+   font-size: 16px;
+   border-radius: 5px;
+   height: 40px;
+   padding-left: 20px;
+   margin-top: 30px;
+   margin-bottom: 15px;
+}
+
+.msg-bubble.reply.write {
+   margin-top: 15px;
+}
+
+/*********************
+* FORM ADD NEW ENTRY
+**********************/
+.entry-desc {
+   width: 416px;
+   height: 155px;
+}
+
+.select-category {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   width: 434px;
+}
+
+.addentry {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.uploadentry {
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+.form-addentry {
+   padding-top:30px;
+}

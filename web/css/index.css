@@ -1,0 +1,59 @@
+/**********************************************************************************************************************************************
+/* 
+/* MAIN PAGE (YOSEMITE)
+/* 
+/**********************************************************************************************************************************************/
+
+/*********************
+* LOGIN CARD
+*********************/
+
+.login-form {
+   padding-top: 0px;
+   border-top: none;
+   margin-bottom: 30px;
+   height: 124px;
+   text-align: center;
+}
+
+/*********************
+* PARTNER LIST SECTION
+**********************/
+
+#our-partners {
+   text-align: center;
+}
+.partner {
+   height: 100px;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100px;
+   margin: 10px;
+   transition: all 0.5s ease 0s;
+   background: rgb(228, 228, 228);
+   padding: 30px 90px;
+   border: 1px solid white;
+   /* Firefox 10+, Firefox on Android */
+}
+.partner:hover {
+   transition: all 0.5s ease 0s;
+   background: white;
+}
+#partner-list {
+   margin: 0 auto;
+   width: 960px;
+   padding: 15px;
+   text-align: center;
+}
+
+/*********************
+* INTRODUCTION REGISTER SECTION
+**********************/
+
+#register {
+   text-align: center;
+}
+.register-list {
+   margin: 30px auto 0 auto;
+   text-align: center;
+}

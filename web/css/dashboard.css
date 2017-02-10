@@ -1,0 +1,95 @@
+
+/**********************************************************************************************************************************************
+/* 
+/* DASHBOARD PAGE (dashboard)
+/* 
+/**********************************************************************************************************************************************/
+
+/*********************
+* INTRO DASHBOARD
+**********************/
+
+.dash-intro-header {
+   background: rgba(255, 255, 255, 0.71);
+   padding: 30px;
+   text-align: left;
+}
+/*********************
+* SUGGESTION LIST
+**********************/
+
+#dashboard-suggestion-slider {
+   width: 2880px;
+}
+.suggestion {
+   padding: 30px;
+   margin-bottom: 30px;
+   color: rgb(66, 66, 66);
+   font-weight: 200;
+   font-size: 17px;
+   height: 300px;
+   z-index: 1;
+   background: linear-gradient(#DADADA, rgba(255, 255, 255, 0.62));
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.suggestion .content {
+   display: block;
+   position: absolute;
+   width: 500px;
+   background: rgba(255, 255, 255, 0.94);
+   margin: 0 auto;
+   height: 150px;
+   padding-top: 30px;
+   text-align: center;
+   /* border: 1px solid #2a8cfa; */
+   border-bottom: none;
+   bottom: 0;
+   right: 24%;
+}
+.suggestion h2 {
+   color: #4A4A4A;
+   font-size: 40px;
+   margin-bottom: -10px;
+   cursor: pointer;
+   width: auto;
+}
+.suggestion h2:hover {
+   color: #2a8cfa;
+   /*text-decoration: underline;*/
+}
+.suggestion .category {
+   text-align: center;
+   color: #2a8cfa;
+   font-size: 20px;
+   font-family: "LF_RobotoThin", sans-serif;
+   font-weight: 200;
+}
+.suggestion .text-description {
+   width: 305px;
+   height: 70px;
+   margin: 0 auto;
+   overflow-y: auto;
+   text-align: justify;
+   overflow-x: hidden;
+}
+
+.suggestion .text-description.location {
+    text-align: center;
+}
+
+.refresh {
+   background: url("../img/refresh-32.png");
+
+   position: absolute;
+   top: 8px;
+   right: 30px;
+}
+/*********************
+* DASHBOARD SECTION
+**********************/
+
+#dashboard-s {
+   margin-top: 30px;
+}

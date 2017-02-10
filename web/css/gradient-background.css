@@ -1,0 +1,16 @@
+/*********************
+* GRADIENT BACKGROUND
+**********************/
+
+.gradient-blue {
+   background: linear-gradient(rgba(85, 239, 203, 0.62), rgba(90, 200, 251, 0.16)) !important;
+}
+.gradient-red {
+   background: linear-gradient(rgba(255, 42, 104, 0.62), rgba(215, 168, 177, 0.28)) !important;
+}
+.gradient-purple {
+   background: linear-gradient(rgba(0, 0, 255, 0.61), rgba(208, 166, 204, 0.28)) !important;
+}
+.gradient-lightpurple {
+   background: linear-gradient(rgba(158, 158, 247, 0.61), rgba(208, 166, 204, 0.28)) !important;
+}

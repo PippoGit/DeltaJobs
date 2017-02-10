@@ -1,0 +1,147 @@
+
+/*********************
+* PROFILE COMMON STYLES
+**********************/
+/*********************
+* RATING AND COLLABORATIONS
+**********************/
+
+#collaboration-s {
+}
+
+.rate {
+   background: url("../img/star-20.png");
+   height: 20px;
+   max-width: 100px;
+}
+
+.current-collaboration {
+   background: rgba(255, 255, 0, 0.1);
+}
+
+
+/*********************
+* NOTIFICATIONS
+**********************/
+.notifications-list {
+   overflow-y: auto;
+   height: 398px;   
+}
+.notification {
+   display: block;
+   border-left: 3px solid #dadada;
+   padding-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 45px;
+   cursor: pointer;
+}
+.notification.new {
+   border-left: 3px solid #2a8cfa;
+}
+.notification-object {
+   color: #4A4A4A;
+   font: 100 16px/1.6"LF_RobotoLight";
+}
+.notification-time{
+   color: #A5A5A5;
+   font: 100 13px/1.6"LF_RobotoLight";
+   display: block;
+}
+.notification:hover .notification-object {
+   color: #898989;
+}
+.notification-form{
+   height: 114px;
+   padding-top: 30px;
+}
+
+/*********************
+* INBOX
+**********************/
+.messages-list {
+   overflow-y: auto;
+   height: 398px;
+}
+
+.message {
+   display: block;
+   border-left: 3px solid #dadada;
+   padding-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 60px;
+   cursor: pointer;
+   position: relative;
+}
+.message:hover {
+   background: linear-gradient(to right, rgba(226, 226, 226, 0.41), transparent);
+}
+.message.new {
+   border-left: 3px solid #2a8cfa;
+}
+.message-from {
+   color: #4A4A4A;
+   font: 100 16px/1.6"LF_RobotoLight";
+   display: block;
+}
+.message-object {
+   color: #4A4A4A;
+   font: 100 16px/1.6"LF_RobotoLight";
+   display: block;
+}
+
+.reply {
+   background: url("../img/edit-20.png");
+   background-position: top;
+
+   top: 30px;
+   right: -3px;
+}
+
+.delete {
+   background: url("../img/trash-can-20.png");
+   top: 18px;
+   right: 0;
+}
+
+
+/*********************
+* COLUMN LAYOUT
+**********************/
+.column-layout {
+   height: 500px;
+   margin: 0 auto;
+   display: block;
+   width: 960px;
+   overflow: hidden;
+}
+.column {
+   float: left;
+   background: rgba(255, 255, 255, 0.71);
+   width: 410px;
+   display: inline-block;
+   margin-right: 15px;
+   border: 1px rgb(255, 255, 255) solid;
+   padding: 30px;
+   height: auto;
+}
+.column.last {
+   margin-right: 0;
+}
+
+.column span {
+    color: #4A4A4A;
+    font: 100 16px/1.6"LF_RobotoLight", sans-serif;
+}
+.column h3 {
+   padding-bottom: 10px;
+   border-bottom: 1px solid;
+   color: #898989;
+   border-color: #DADADA;
+}
+
+.counter {
+   font-family: "LF_RobotoLight", sans-serif;
+   color: #2a8cfa !important;
+}
