@@ -1,2 +1,2 @@
 # DeltaJobs
-a social network
+A social network for finding IT Jobs (developed in PHP + Javascript)
